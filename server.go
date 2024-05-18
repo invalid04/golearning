@@ -3,5 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello world")
+
+	var number uint16 = 260
+	number = number + 5
+
+	fmt.Println(number)
 }
